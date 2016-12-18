@@ -1,4 +1,4 @@
-import constants from '../constants/constants';
+import constants from 'constants/constants';
 import update from 'react-addons-update';
 
 function common(state = {

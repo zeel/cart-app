@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Header from '../../containers/Header';
-import FilterStories from '../../containers/FilterStories';
-import StoryList from '../../containers/StoryList';
+import Header from 'containers/Header';
+import FilterStories from 'containers/FilterStories';
+import StoryList from 'containers/StoryList';
 import './_app.css';
 
 class App extends Component {

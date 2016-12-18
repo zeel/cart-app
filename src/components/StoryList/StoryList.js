@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import StoryItem from '../StoryItem';
+import StoryItem from 'components/StoryItem';
 import cx from 'classnames';
-import constants from 'js/constants/constants';
-
+import constants from 'constants/constants';
 import './_storyList.css';
 
 class StoryList extends Component{

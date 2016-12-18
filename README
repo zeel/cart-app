@@ -1,0 +1,5 @@
+cart app.
+categories(mobiles, tshirt, pants - routes based on them)
+url based on item
+universal search
+user acl -> can add/edit product

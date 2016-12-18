@@ -1,4 +1,4 @@
-import FilterStories from '../components/FilterStories';
+import FilterStories from 'components/FilterStories';
 import {
 	connect
 } from 'react-redux';

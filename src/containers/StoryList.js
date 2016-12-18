@@ -1,8 +1,8 @@
-import StoryList from '../components/StoryList';
+import StoryList from 'components/StoryList';
 import {
 	connect
 } from 'react-redux';
-import actions from '../actions/';
+import actions from 'actions';
 
 const getFilteredStories = (stories, searchText = '') => {
 		const processedSearchText = searchText.toLowerCase();

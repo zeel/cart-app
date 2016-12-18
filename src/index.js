@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
 import App from './components/App';
 import reducer from './reducers/index';
+import {Router, Route, IndexRoute, Link, hashHistory} from 'react-router';
 import {
 	createStore
 } from 'redux';
@@ -16,9 +17,12 @@ store.subscribe(() => {
 	localStorage.setItem('storyData', JSON.stringify(store.getState()))
 });
 
-ReactDOM.render( < Provider store = {
+render( < Provider store = {
 		store
 	} >
-	< App / >
+	<Router history={hashHistory}>
+    <Route path="/" component={App}>
+    </Route>
+  </Router>
 	< /Provider>,
 	document.getElementById('app'));

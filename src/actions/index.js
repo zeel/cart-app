@@ -1,4 +1,4 @@
-import constants from '../constants/constants';
+import constants from 'constants/constants';
 let id = -1;
 export default {
     addStory: () => {

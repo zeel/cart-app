@@ -1,8 +1,8 @@
-import Header from '../components/Header';
+import Header from 'components/Header';
 import {
 	connect
 } from 'react-redux';
-import actions from '../actions/';
+import actions from 'actions';
 
 const mapStateToProps = (state) => ({
 		viewType: state.common.viewType,

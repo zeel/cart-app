@@ -4,7 +4,7 @@ import Icon from '../Icon';
 import grid from 'icons/grid.svg';
 import add from 'icons/add.svg';
 import hamburger from 'icons/hamburger.svg';
-import Constants from '../../constants/constants';
+import Constants from 'constants/constants';
 
 import './_header.css';
 

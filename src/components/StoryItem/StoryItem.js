@@ -5,7 +5,7 @@ import React, {
 import Icon from '../Icon';
 import cx from 'classnames';
 
-import constants from 'js/constants/constants';
+import constants from 'constants/constants';
 
 import './_storyItem.css';
 import editIcon from 'icons/edit.svg';
