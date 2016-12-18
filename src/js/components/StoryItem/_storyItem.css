@@ -1,0 +1,109 @@
+.grid-container{
+    margin-left: -4rem;
+    flex-wrap: wrap;
+    display : flex;
+    padding : 0 15%;
+    justify-content: center;
+}
+
+.grid-item{
+	flex : 1 0 calc(50% - 4rem);
+	box-sizing: border-box;
+	margin-left: 4rem;
+	margin-top: 3rem;
+	max-width: 25rem;
+	position: relative;
+}
+
+.grid-item .action-container{
+	position: absolute;
+	top: 0;
+	left : 0;
+	padding : 1rem;
+	background: hsla(0,0%,100%,.6);
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.grid-image{
+	width: 100%;
+	max-height: 25rem;
+    min-height: 21rem;
+}
+
+.grid-details{
+	background-color: #ccc;
+	padding: .4rem;
+	min-height: 6.8rem;
+}
+
+.grid-details .description{
+	margin : 0;
+	margin-top : .6rem;
+	line-height  : 1.1rem;
+    height: 4.4rem;
+    word-break: break-word;
+    overflow: hidden;
+    opacity: .6;
+}
+
+.grid-details .title{
+	margin : 0;
+	opacity: .6;
+}
+
+.list-container{
+	margin-top: 2rem;
+}
+
+.list-image{
+	width: 16rem;
+}
+.list-details-container{
+	margin-left : 22rem;
+}
+
+.list-details .description{
+	margin : 0;
+	font-size : 1.1rem;
+	margin-top : .4rem;
+    max-height: 2.2rem;
+    overflow: hidden;
+}
+
+.list-details .title{
+	margin : 0;
+	font-size : 2rem;
+}
+
+.list-item{
+	padding: 1rem 0;
+	min-height: 10.8rem;
+}
+
+.list-item + .list-item{
+	border-top : .1rem solid #ccc;
+}
+
+.see-more-link{
+	text-decoration: none;
+	color : red;
+	margin-top: 2.8rem;
+    display: inline-block;
+}
+
+.item:hover .action-container{
+	visibility: visible;
+}
+
+.action-container{
+	visibility: hidden;
+}
+
+.action-icon{
+	height : 1.6rem;
+	margin-left: .8rem;
+	width : 1.6rem;
+	fill : #808080;
+}

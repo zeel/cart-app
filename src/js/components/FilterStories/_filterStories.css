@@ -1,0 +1,35 @@
+.search-container{
+	display: flex;
+	background-color : #eceeef;
+	padding : .6rem 1.2rem;
+}
+
+.search-input{
+	background-color : #eceeef;
+	font-size: 1.6rem;
+	border: none;
+	flex: 1;
+	padding : 0;
+	min-height: 2.4rem;
+}
+.search-input::-webkit-input-placeholder{
+	color: black;
+}
+.search-input::-moz-placeholder {
+  color: black;
+}
+.search-input:-ms-input-placeholder {
+  color: black;
+}
+:-moz-placeholder {
+  color: black;
+}
+.search-input:focus{
+	outline: none;
+}
+    
+.search-icon{	
+	height: 1.6rem;
+	margin-top : .5rem;
+	width: 1.6rem;
+}

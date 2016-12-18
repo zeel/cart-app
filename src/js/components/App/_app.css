@@ -1,0 +1,45 @@
+/** utility classes **/
+.rfloat {
+    float: right;
+}
+
+.lfloat {
+    float: left;
+}
+
+.show-ib {
+    display: inline-block;
+}
+
+.spr{
+    position : relative;
+}
+
+.spa{
+    position: absolute;
+}
+
+.scp {
+    cursor: pointer;
+}
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+    height: 0;
+    overflow: hidden;
+}
+
+.full-width {
+    width: 100%;
+}
+
+html{
+    font-size : 10px;
+    font-family: Arial;
+}
+
+body{
+    margin : 0;
+}

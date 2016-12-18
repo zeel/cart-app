@@ -1,0 +1,22 @@
+.header{
+	box-sizing: border-box;
+	background-color: #55595c;
+    color: #fff;
+    padding : 1rem 2rem;
+    opacity : .7;
+}
+
+.header-title{
+	font-size : 2.4rem;
+}
+
+.header-icon{
+	fill : #fff;
+	height : 2.4rem;
+	margin-left: 1.6rem;
+	width : 2.4rem;
+}
+
+.header-icon:first-child{
+	margin-left : 0;
+}
